@@ -30,10 +30,25 @@ Follow these steps to set up a clean, isolated local environment and run the not
 git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git)
 cd YOUR_REPOSITORY_NAME
 
-
+cd vision
 python -m venv venv
 source venv/bin/activate # Mac
 venv\Scripts\activate.bat # Windows
-
 pip install --upgrade pip
 pip install -r requirements.txt
+
+cd NLP
+python -m venv venv
+source venv/bin/activate # Mac
+venv\Scripts\activate.bat # Windows
+pip install --upgrade pip
+pip install -r requirements.txt
+
+cd experiments
+python -m venv venv
+source venv/bin/activate # Mac
+venv\Scripts\activate.bat # Windows
+pip install --upgrade pip
+pip install -r requirements.txt
+
+To access the live application on the link http://129.151.134.18:8501/
