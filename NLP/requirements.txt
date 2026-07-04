@@ -100,11 +100,13 @@ pydantic_core==2.46.4
 Pygments @ file:///home/conda/feedstock_root/build_artifacts/pygments_1774796700044/work
 pypdf==6.14.2
 python-dateutil @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_python-dateutil_1751104122/work
+python-dotenv==1.2.2
 python-json-logger==4.1.0
 pywin32 @ file:///D:/bld/bld/rattler-build_pywin32_1781362887/work
 pywinpty==3.0.5
 PyYAML==6.0.3
 pyzmq @ file:///D:/bld/bld/rattler-build_pyzmq_1779483925/work
+rank-bm25==0.2.2
 referencing==0.37.0
 regex==2026.6.28
 reportlab==5.0.0
@@ -137,7 +139,7 @@ torchvision==0.21.0+cu126
 tornado @ file:///D:/bld/tornado_1781006767716/work
 tqdm==4.68.3
 traitlets @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_traitlets_1780507822/work
-transformers==5.12.1
+transformers==5.13.0
 typer==0.25.1
 typing-inspection==0.4.2
 typing_extensions @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_typing_extensions_1756220668/work
